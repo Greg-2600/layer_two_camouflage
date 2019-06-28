@@ -11,4 +11,5 @@ Blend into a network segment at the datalink layer
 Tested in OSX, will not work in linux.
 
 Usage:
-sudo bash layer_two_camouflage.sh
+
+  sudo bash layer_two_camouflage.sh
