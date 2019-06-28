@@ -85,8 +85,6 @@ main() {
 	mac=$(get_camouflage_mac) # set the value of the new mac
 	set_camouflage_mac $mac   # apply the new mac to this computer
 	set_dhcp_request          # request a IP lease on this network
-
-	#get_camouflage_mac         # debug
 }
 
 
