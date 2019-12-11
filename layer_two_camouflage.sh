@@ -13,7 +13,7 @@ get_broadcast_address() {
 set_arp_cache() {
 # populate the arp cache with device that respond to broadcasts
 	# send one frame to ff:ff:ff:ff:ff:ff
-	ping -o $(get_broadcast_ddress)
+	ping -o $(get_broadcast_address)
 }
 
 
